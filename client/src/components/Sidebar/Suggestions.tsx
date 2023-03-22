@@ -2,13 +2,13 @@ import React from "react";
 
 const Suggestions = () => {
   return (
-    <div>
-      <h2>Who to follow</h2>
+    <section id="suggestions">
+      <h2 className="sidebar__heading">Who to follow</h2>
       <div>
         {/* info from db here */}
       </div>
-      <button>Show more</button>
-    </div>
+      <button className="sidebar__btn">Show more</button>
+    </section>
   )
 }
 

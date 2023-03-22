@@ -61,6 +61,17 @@
   margin-top: 1rem; }
   .sidebar__container {
     margin: 5rem 0 0 2rem; }
+  .sidebar__heading {
+    font-weight: bold;
+    font-size: 1.4rem; }
+  .sidebar__btn {
+    color: #FE6244;
+    text-align: start;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: 100%; }
+    .sidebar__btn:hover {
+      background-color: rgba(211, 211, 211, 0.2); }
 
 .home {
   width: 33vw; }
