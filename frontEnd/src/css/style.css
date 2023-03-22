@@ -35,3 +35,18 @@
     transition: all .5s; }
     .navbar__btn-tweet:hover {
       background-color: #1a8cd8; }
+
+.home {
+  width: 33vw; }
+  .home__header {
+    margin-bottom: 1rem; }
+  .home__btn {
+    color: #697683;
+    transition: background-color .5s;
+    width: calc(33vw / 2);
+    padding: .7rem 0; }
+    .home__btn:hover {
+      background-color: rgba(211, 211, 211, 0.2); }
+    .home__btn-active {
+      color: #fff;
+      border-bottom: 2px solid #1d9bf0; }

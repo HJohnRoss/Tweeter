@@ -1,18 +1,19 @@
-import React from "react";
-import Navbar from "../components/Navbar"
+import React, { useState } from "react";
+import Sidebar from "../components/Sidebar/Sidebar";
 
 const Home = () => {
+  const [category, setCategory] = useState("following");
   return (
-    <section id="home">
-      <div>
-        <h2>Home</h2>
-
-        <div>
-          <button>For you</button>
-          <button>Following</button>
-        </div>
-      </div>
-    </section>
+    <>
+      <section className="home" id="home">
+          <h2 className="home__header">Home</h2>
+          <div className="home__nav">
+            <button onClick={() => setCategory("for you")} className={category === "for you" ? "home__btn home__btn-active" : "home__btn"}>For you</button>
+            <button onClick={() => setCategory("following")} className={category === "following" ? "home__btn home__btn-active" : "home__btn"}>Following</button>
+          </div>
+      </section>
+      <Sidebar />
+    </>
   )
 }
 

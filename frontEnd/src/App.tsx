@@ -7,7 +7,7 @@ function App() {
   const [active, setActive] = useState("home")
 
   return (
-    <div className='dark:bg-slate-800 dark:text-white'>
+    <div className='dark:bg-slate-800 dark:text-white min-h-screen'>
       <div className="md:container md:mx-auto px-20 flex">
         <Navbar active={active} setActive={setActive} />
         <Routes>

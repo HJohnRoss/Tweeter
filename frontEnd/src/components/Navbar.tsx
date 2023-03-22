@@ -8,6 +8,7 @@ type Props = {
 };
 
 const Navbar: React.FC<Props> = ({ active, setActive }): JSX.Element => {
+// const Navbar = (props:Props) => {
 
 
   const changeLogo = (type: string) => {
