@@ -5,12 +5,14 @@ import Suggestions from "./Suggestions"
 
 const Sidebar = () => {
   return (
-    <section id="sidebar">
+    <section id="sidebar" className="sidebar">
       <Search />
 
-      <Trending />
+      <div className="sidebar__container">
+        <Trending />
 
-      <Suggestions />
+        <Suggestions />
+      </div>
     </section>
   )
 }
