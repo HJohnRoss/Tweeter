@@ -69,7 +69,8 @@
     text-align: start;
     padding: .5rem 1rem;
     border-radius: .5rem;
-    width: 100%; }
+    width: 100%;
+    transition: all .5s; }
     .sidebar__btn:hover {
       background-color: rgba(211, 211, 211, 0.2); }
 

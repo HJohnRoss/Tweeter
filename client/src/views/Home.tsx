@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
+import NewTweet from "../components/NewTweet/NewTweet";
 
 const Home = () => {
   const [category, setCategory] = useState("following");
@@ -11,6 +12,7 @@ const Home = () => {
             <button onClick={() => setCategory("for you")} className={category === "for you" ? "home__btn home__btn-active" : "home__btn"}>For you</button>
             <button onClick={() => setCategory("following")} className={category === "following" ? "home__btn home__btn-active" : "home__btn"}>Following</button>
           </div>
+          <NewTweet/>
       </section>
       <Sidebar />
     </>
