@@ -1,0 +1,37 @@
+.navbar {
+  width: 20rem;
+  margin-top: 2rem; }
+  .navbar :not(:last-child) {
+    margin-bottom: 1rem; }
+  .navbar__logo:link, .navbar__logo:visited {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    transition: all .5s;
+    border-radius: 50%; }
+  .navbar__logo:hover {
+    background-color: rgba(211, 211, 211, 0.1); }
+  .navbar__link:link, .navbar__link:visited {
+    text-decoration: none;
+    padding: .7rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    transition: all .5s; }
+  .navbar__link:hover {
+    background-color: rgba(211, 211, 211, 0.1); }
+  .navbar__btn-reg {
+    font-size: 1.5rem;
+    padding: .7rem 1rem;
+    border-radius: 5rem;
+    transition: all .5s; }
+    .navbar__btn-reg:hover {
+      background-color: rgba(211, 211, 211, 0.1); }
+  .navbar__btn-tweet {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #1d9bf0;
+    border-radius: 5rem;
+    padding: .7rem 1rem;
+    transition: all .5s; }
+    .navbar__btn-tweet:hover {
+      background-color: #1a8cd8; }

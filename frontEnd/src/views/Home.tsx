@@ -3,10 +3,16 @@ import Navbar from "../components/Navbar"
 
 const Home = () => {
   return (
-    <div className="flex">
-      <Navbar/>
-      <p>help</p>
-    </div>
+    <section id="home">
+      <div>
+        <h2>Home</h2>
+
+        <div>
+          <button>For you</button>
+          <button>Following</button>
+        </div>
+      </div>
+    </section>
   )
 }
 
