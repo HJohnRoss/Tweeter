@@ -1,0 +1,37 @@
+.newTweet {
+  min-width: 28rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+
+  &__label {
+    width: 20%;
+  }
+  &__form {
+    width: 80%;
+
+    &-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__input {
+    color: $text-primary;
+    background-color: transparent;
+    overflow-x: auto;
+    overflow-y: none;
+    resize: none;
+    height: 1.5rem;
+    width: 100%;
+
+    &:focus {
+      outline: none
+    }
+  }
+
+  &__icons {
+    display: flex;
+    gap: .5rem;
+  }
+}

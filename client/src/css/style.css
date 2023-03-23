@@ -19,6 +19,32 @@
   .searchbar:focus-within .searchbar__icon {
     color: #FE6244; }
 
+.newTweet {
+  min-width: 28rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0; }
+  .newTweet__label {
+    width: 20%; }
+  .newTweet__form {
+    width: 80%; }
+    .newTweet__form-buttons {
+      display: flex;
+      justify-content: space-between; }
+  .newTweet__input {
+    color: #fff;
+    background-color: transparent;
+    overflow-x: auto;
+    overflow-y: none;
+    resize: none;
+    height: 1.5rem;
+    width: 100%; }
+    .newTweet__input:focus {
+      outline: none; }
+  .newTweet__icons {
+    display: flex;
+    gap: .5rem; }
+
 .navbar {
   width: 20rem;
   margin-top: 2rem; }
@@ -75,7 +101,7 @@
       background-color: rgba(211, 211, 211, 0.2); }
 
 .home {
-  width: 33vw; }
+  max-width: 33vw; }
   .home__header {
     margin-bottom: 1rem; }
   .home__btn {
