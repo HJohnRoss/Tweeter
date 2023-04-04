@@ -1,12 +1,16 @@
 import React from "react";
 // import {Link} from "react-router-dom";
 
-const Login = ({ closeLogin }) => {
+type Props = {
+  setOpenLogin: (val: boolean) => void;
+}
+
+const Login = (props:Props) => {
     return (
         <div>
             <div className="logo-box">
             <div className="exit-button">
-                <button className="exit" onClick={() => closeLogin(false)}>X</button>
+                <button className="exit" onClick={() => props.setOpenLogin(false)}>X</button>
             </div>
                 <img src="./logo.png" alt="twitter" className="logo" />
                 <h2 className="bold-text">Sign In to Twitter</h2>

@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { useState } from "react";
 import twitterLogo from "../assets/twitter-logo.png"
 import { Link } from "react-router-dom";
 

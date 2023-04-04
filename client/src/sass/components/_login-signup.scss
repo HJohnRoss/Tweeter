@@ -1,0 +1,125 @@
+.logo-box {
+  background-color: $color-primary;
+  padding: 1.875rem 7.5rem;
+  width: 37.5rem;
+  height: 37.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid black;
+
+  .exit-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .exit {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 1.875rem;
+    }
+  }
+
+  .logo {
+    width: 1.875rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .bold-text{
+    font-weight: bold;
+  }
+
+  h2 {
+    margin-bottom: 1.25rem;
+  }
+
+  button {
+    img {
+      width: 1.125rem;
+      margin-right: 0.625rem;
+    }
+
+    width: 100%;
+    padding: 0.625rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25rem 0;
+    border-radius: 1.875rem;
+    background: transparent;
+    border: 0.0625rem solid #999;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  hr {
+    border: 0;
+    height: 0.0625rem;
+    background: #c2c2c2;
+    margin: 0.3125rem;
+  }
+
+  span {
+    display: block;
+    width: 2.5rem;
+    margin: auto;
+    background: $color-primary;
+    font-size: 0.875rem;
+    margin-top: -1rem;
+  }
+
+  input {
+    width: 100%;
+    background: transparent;
+    border: 0.0625rem solid #999;
+    outline: 0;
+    padding: 0.9375rem 0.625rem;
+    border-radius: 0.25rem;
+
+    &::placeholder {
+      font-weight: 500;
+      color: #333;
+    }
+  }
+
+  form {
+    button {
+      background: #000;
+      color: $color-primary;
+      border: 0;
+      margin-bottom: 0.9375rem;
+    }
+  }
+
+  p {
+    /* text-align: left; */
+    font-size: 0.875rem;
+    color: #555;
+    margin: 2.5rem 0 3.125rem;
+  }
+}
+.login-box {
+  p {
+    a {
+      text-decoration: none;
+      color: #359cf0;
+      margin-left: 6.25rem;
+    }
+  }
+}
+
+.sign-up {
+  text-decoration: none;
+  color: blue;
+}
+
+.text-create {
+  margin-bottom: 1.875rem;
+}
