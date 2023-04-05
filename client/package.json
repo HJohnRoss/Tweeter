@@ -7,17 +7,17 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
-    "compile:sass": "node-sass src/sass/main.scss src/css/style.comp.css",
+    "watch:sass": "sass src/sass/main.scss src/css/style.css -w",
+    "compile:sass": "sass src/sass/main.scss src/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.comp.css -o src/css/style.prefix.css",
-    "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
+    "compress:css": "sass src/css/style.prefix.css src/css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "dependencies": {
-    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.9.0"
+    "react-router-dom": "^6.9.0",
+    "sass": "^1.60.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
