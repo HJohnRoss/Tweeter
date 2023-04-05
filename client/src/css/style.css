@@ -31,6 +31,36 @@
     .newTweet__form-buttons {
       display: flex;
       justify-content: space-between; }
+    .newTweet__form-audience-btn--1 {
+      color: #FE6244;
+      border-radius: 1rem;
+      padding: 0 .5rem;
+      font-size: .9rem;
+      border: 0.1rem solid rgba(211, 211, 211, 0.2);
+      transition: all .2s; }
+      .newTweet__form-audience-btn--1:hover {
+        background-color: rgba(254, 98, 68, 0.1);
+        cursor: pointer; }
+    .newTweet__form-audience-container {
+      box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(211, 211, 211, 0.2);
+      max-width: fit-content;
+      border-radius: 1rem; }
+      .newTweet__form-audience-container-btn-1 {
+        transition: all .4s;
+        padding: 0 .5rem; }
+        .newTweet__form-audience-container-btn-1:last-child {
+          border-bottom-left-radius: 1rem;
+          border-bottom-right-radius: 1rem; }
+        .newTweet__form-audience-container-btn-1:hover {
+          background-color: rgba(211, 211, 211, 0.2);
+          cursor: pointer; }
+      .newTweet__form-audience-container-btn-2 {
+        transition: all .4s;
+        padding: 0 .5rem;
+        border-radius: 1rem; }
+        .newTweet__form-audience-container-btn-2:hover {
+          background-color: rgba(211, 211, 211, 0.2);
+          cursor: pointer; }
   .newTweet__input {
     color: #fff;
     background-color: transparent;
