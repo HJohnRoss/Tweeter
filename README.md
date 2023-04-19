@@ -26,8 +26,5 @@
 ## Future Updates
 
 * Adding Spring Security for user logins
-* Adding Sizes for different types of products
-* Storing a signed in users previous purchases
-* Stripe sending an email of the buyer of they're recipe
 
 <p align="right">(<a href="#top">back to top</a>)</p>
