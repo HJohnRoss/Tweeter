@@ -1,0 +1,64 @@
+.navbar {
+  width: 20rem;
+  margin-top: 2rem;
+
+  :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  &__logo {
+
+    &:link,
+    &:visited {
+      padding: 1rem 1rem;
+      font-size: 1.5rem;
+      transition: all .5s;
+      border-radius: 50%;
+    }
+
+    &:hover {
+      background-color: rgba($color-grey, .1);
+    }
+  }
+
+  &__link {
+
+    &:link,
+    &:visited {
+      text-decoration: none;
+      padding: .7rem 1rem;
+      font-size: 1.5rem;
+      border-radius: 5rem;
+      transition: all .5s;
+    }
+
+    &:hover {
+      background-color: rgba($color-grey, .1);
+    }
+  }
+
+  &__btn-reg {
+    font-size: 1.5rem;
+    padding: .7rem 1rem;
+    border-radius: 5rem;
+    transition: all .5s;
+
+    &:hover {
+      background-color: rgba($color-grey, .1);
+    }
+  }
+
+  &__btn-tweet {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: $color-secondary;
+    border-radius: 5rem;
+    padding: .7rem 1rem;
+    transition: all .5s;
+
+    &:hover {
+      background-color: $color-secondary-dark;
+    }
+  }
+}
